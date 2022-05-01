@@ -8,3 +8,300 @@
     margin: auto;
     width: 960px;
 }
+
+/*--------Top-Bar---------*/
+
+.top-bar{
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 60px;
+}
+.top-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.signup ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.signup li{
+    float: left;
+}
+
+.signup li a{
+    display: block;
+    color: #9f9f9f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #9f9f9f;
+}
+
+
+
+/*-----------SLIDER-----------*/
+
+.slider-image{
+    width: 550px;
+    height: 440px;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+/*--------------INTRO-------------*/
+.intro-items{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.left{
+    width: 49%;
+    height: 430px;
+    margin-right: 10px;
+    border: 2px solid rebeccapurple;
+    display: inline-block;
+}
+.right{
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    justify-content: right;
+    
+}
+
+.box{
+    /*background-color: gray;
+    aspect-ratio: 1;*/
+    width: 225px;
+    height: 223px;
+    margin: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: gray;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box .inner-box{
+    width: 85px;
+    height: 80px;
+    border: none;
+    margin: auto;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.box h3{
+    color: #0099ff;
+}
+
+
+
+
+/*--------SHOUTOUT----------*/
+.shoutout{
+    background-color: #e0e0e0;
+    border-left: 10px solid #0099ff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin: 40px;
+}
+
+.shoutout-items{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.shoutout-items button{
+    width: 280px;
+    height: 58px;
+    background-color: #0099ff;
+    border-radius: 7px;
+    
+}
+
+
+
+
+/*-------info----------*/
+.info{
+    background-color: #1a1a1a;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-items{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.info-item{
+    width: 215px;
+    height: 320px;
+    margin-right: 15px;
+    padding-left: 0;
+}
+
+.info-item-text{
+    color: #666666;
+}
+.info-item-text a{
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.info-item-blog a{
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.info-item-blog h5{
+    color: #666666;
+}
+
+.info-item-blog span{
+    color: #666666;
+}
+
+.info-item-blog h6{
+    color: #666666;
+}
+
+.info-item-blog p{
+    color: #666666;
+}
+
+.info-item-blog small{
+    color: #666666;
+}
+
+.info-item h4{
+    color: white;
+}
+
+.info-item-image{
+    width: 215px;
+    height: 90px;
+    border: 3px solid red;
+    margin-bottom: 5px;
+}
+
+/* links */
+.info-item-links ul{
+    margin-left: 16px;
+    list-style-type: square;
+}
+
+.info-item-links li{
+    border-bottom: 1px solid #232323;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.info-item-links a{
+    text-decoration: none;
+    color: #0099ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------contact----------*/
+.info-item .last {
+    margin-right: 0;
+}
+
+.info-item-contact input {
+    width: 100%;
+    height: 2.3em;
+    border-radius: 10px; 
+    background-color: #222222;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-bottom: 0.7em;
+}
+
+.info-item-contact textarea {
+    width: 100%;
+    border-radius: 10px; 
+    background-color: #222222;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-bottom: 0.4em;
+    resize: none;
+}
+
+.info-item-contact button {
+    width: 6em;
+    height: 2em;
+    background-color: #0099ff;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 6px;
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+/*-------Footer---------*/
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+    color: #666666;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    top: 50%;
+}
+
+.footer .footer-left{
+    text-align: left;
+    float: left;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.footer .footer-right{
+    text-align: right;
+    float: right;
+    margin: 0;
+    padding-top: 1em;
+}

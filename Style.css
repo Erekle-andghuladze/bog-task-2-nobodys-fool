@@ -68,60 +68,78 @@
 
 
 /*--------------INTRO-------------*/
-.intro-items{
+
+.intro .container {
     display: flex;
-    flex-wrap: nowrap;
-    position: relative;
-    margin: 0 auto;
+    justify-content: space-between;
     margin-top: 40px;
-    
 }
 
-.left{
+.intro-left {
+    display: flex;
     width: 49%;
-    height: 430px;
-    margin-right: 10px;
-    border: 2px solid rebeccapurple;
-    display: inline-block;
 }
-.right{
-    /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px; */
+
+.intro-right {
+    display: flex;
+    width: 49%;
+    justify-content: space-between;
+}
+
+
+.intro-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.intro-column {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
-    justify-content: right;
-    
+    width: 48%;
 }
 
-.box{
-    /*background-color: gray;
-    aspect-ratio: 1;*/
-    width: 225px;
-    height: 223px;
-    margin: 8px;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: gray;
-    position: relative;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.box .inner-box{
-    width: 85px;
-    height: 80px;
-    border: none;
-    margin: auto;
-    background-color: #666666;
-    color: white;
+.intro-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
     text-align: center;
     justify-content: center;
 }
 
-.box h3{
+
+.intro-box-item {
+    display: flex;
+}
+
+.intro-box-item h3 {
+    margin: auto;
+    margin-top: 2px;
+}
+
+.intro-box h3{
     color: #0099ff;
+    font-weight: normal;
+} 
+
+
+.inner-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #666666;
+    width: 85px;
+    height: 80px;
+    position: relative;
+}
+
+.inner-box p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -244,7 +262,7 @@
 .info-item-image{
     width: 215px;
     height: 90px;
-    border: 3px solid red;
+    border: 1px solid #666666;
     margin-bottom: 5px;
 }
 
